@@ -1,6 +1,6 @@
-## VAUED Assignment
+# <u>VAUED Assignment 02 👀</u>
 
-Work Distribution:
+## Work Distribution:
 
 1. REST Service Implementation: This task involves implementing the REST service and configuring the Prometheus exporter/module. (2 Members can handle this task)
 
@@ -9,7 +9,7 @@ Work Distribution:
 3. Grafana Setup and Dashboard Creation: Setting up Grafana, creating a dashboard, and configuring alerting. (2 Members can handle this task)
 
 
-Task 1: REST Service Implementation
+## Task 1: REST Service Implementation
 
     Choose Programming Language and Framework:
         Decide on the programming language and framework for building the REST service. Since Ballerina was mentioned as an option, you can go with that.
@@ -23,7 +23,7 @@ Task 1: REST Service Implementation
     Testing and Documentation:
         Ensure thorough testing of the service to verify functionality and metric collection. Document the endpoints, metrics exposed, and any setup instructions needed for deployment.
 
-Task 2: Prometheus Setup and Deployment
+## Task 2: Prometheus Setup and Deployment
 
     Install and Configure Prometheus:
         Members 3 and 4 should install Prometheus and configure the prometheus.yml file to scrape metrics from the REST service implemented by Members 1 and 2.
@@ -31,7 +31,7 @@ Task 2: Prometheus Setup and Deployment
     Docker/Kubernetes/Cloud Deployment:
         Deploy Prometheus using Docker, Kubernetes, or a cloud platform as specified in the assignment requirements.
 
-Task 3: Grafana Setup, Dashboard Creation, and Alerting
+## Task 3: Grafana Setup, Dashboard Creation, and Alerting
 
     Install and Configure Grafana:
         Members 5 and 6 should install Grafana and configure it. They should add Prometheus as a data source in Grafana.
