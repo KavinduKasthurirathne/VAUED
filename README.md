@@ -9,41 +9,32 @@
 3. Grafana Setup and Dashboard Creation: Setting up Grafana, creating a dashboard, and configuring alerting. (2 Members can handle this task)
 
 
-## Task 1: REST Service Implementation
+    Team Member 1: Implementing the REST service and configuring the exporter/module.
+        Develop the core functionality of the REST service using the preferred programming language.
+        Integrate Prometheus exporter/module to expose metrics endpoint.
+        Ensure the service is properly instrumented to collect relevant metrics.
 
-    Choose Programming Language and Framework:
-        Decide on the programming language and framework for building the REST service. Since Ballerina was mentioned as an option, you can go with that.
+    Team Member 2: Deployment of the REST service using Docker/Kubernetes/Cloud.
+        Dockerize the REST service.
+        Create Kubernetes manifests for deploying the service.
+        Orchestrate the deployment using a cloud platform like AWS, GCP, or Azure.
 
-    Implement the REST Service:
-        Members 1 and 2 should collaborate to define endpoints, handle requests, and return responses. They should also integrate Prometheus metrics instrumentation into the service code.
+    Team Member 3: Setting up Prometheus.
+        Install and configure Prometheus server.
+        Define scrape configurations to collect metrics from the REST service.
+        Ensure Prometheus is up and running, collecting metrics from the service.
 
-    Configure Prometheus Exporter/Module:
-        If using Ballerina, utilize the Prometheus extension to expose metrics easily. Otherwise, use built-in exporters or libraries to expose metrics in Prometheus format.
+    Team Member 4: Deployment of Prometheus using Docker/Kubernetes/Cloud.
+        Dockerize Prometheus.
+        Create Kubernetes manifests for deploying Prometheus.
+        Orchestrate the deployment using a cloud platform.
 
-    Testing and Documentation:
-        Ensure thorough testing of the service to verify functionality and metric collection. Document the endpoints, metrics exposed, and any setup instructions needed for deployment.
+    Team Member 5: Setting up Grafana dashboard.
+        Install and configure Grafana server.
+        Add Prometheus as a data source in Grafana.
+        Design and create a dashboard to visualize the collected metrics from Prometheus.
 
-## Task 2: Prometheus Setup and Deployment
-
-    Install and Configure Prometheus:
-        Members 3 and 4 should install Prometheus and configure the prometheus.yml file to scrape metrics from the REST service implemented by Members 1 and 2.
-
-    Docker/Kubernetes/Cloud Deployment:
-        Deploy Prometheus using Docker, Kubernetes, or a cloud platform as specified in the assignment requirements.
-
-## Task 3: Grafana Setup, Dashboard Creation, and Alerting
-
-    Install and Configure Grafana:
-        Members 5 and 6 should install Grafana and configure it. They should add Prometheus as a data source in Grafana.
-
-    Create Dashboard:
-        Collaboratively design and create a dashboard in Grafana to visualize the metrics collected from the REST service. Ensure it provides clear and understandable insights.
-
-    Export Dashboard to JSON:
-        Export the dashboard to a JSON file as required by the assignment.
-
-    Setting Up Alerting:
-        Configure alerting rules in Grafana based on the metrics collected. Define thresholds and conditions for triggering alerts.
-
-    Docker/Kubernetes/Cloud Deployment:
-        Deploy Grafana using Docker, Kubernetes, or a cloud platform as specified in the assignment requirements.
+    Team Member 6: Setting up alerting in Grafana.
+        Configure alerting rules in Grafana based on the collected metrics.
+        Set up notification channels for alerting (e.g., email, Slack, etc.).
+        Test the alerting system to ensure it triggers alerts appropriately.
