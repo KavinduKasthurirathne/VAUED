@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springmonitoringdemo.SpringMonitoringDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-10T13:17:45" hostname="KIK" time="1.584">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.springmonitoringdemo.SpringMonitoringDemoApplicationTests" time="1.584"/>
+  <system-out><![CDATA[18:47:40.779 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.springmonitoringdemo.SpringMonitoringDemoApplicationTests]: SpringMonitoringDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:47:40.991 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.springmonitoringdemo.SpringMonitoringDemoApplication for test class com.example.springmonitoringdemo.SpringMonitoringDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2024-05-10T18:47:41.889+05:30  INFO 11580 --- [spring-prometheus-demo] [    Test worker] e.s.SpringMonitoringDemoApplicationTests : Starting SpringMonitoringDemoApplicationTests using Java 17.0.7 with PID 11580 (started by HP in C:\Users\HP\Documents\microservice-monitoring-part-1-main\microservice-monitoring-part-1-main\spring-monitoring-demo)
+2024-05-10T18:47:41.892+05:30  INFO 11580 --- [spring-prometheus-demo] [    Test worker] e.s.SpringMonitoringDemoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-05-10T18:47:45.011+05:30  INFO 11580 --- [spring-prometheus-demo] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-10T18:47:45.129+05:30  INFO 11580 --- [spring-prometheus-demo] [    Test worker] e.s.SpringMonitoringDemoApplicationTests : Started SpringMonitoringDemoApplicationTests in 3.78 seconds (process running for 6.292)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
